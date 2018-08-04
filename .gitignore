@@ -2,5 +2,5 @@ server/node_modules/
 desktop.ini
 server/desktop.ini
 .vscode/
-config/dev.js
-config/desktop.ini
+server/config/dev.js
+server/config/desktop.ini
