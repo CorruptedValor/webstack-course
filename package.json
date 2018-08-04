@@ -2,7 +2,6 @@
   "name": "server",
   "version": "1.0.0",
   "scripts": {
-    "postinstall": "cd server && npm install",
-    "start": "node server/index.js"
+    "start": { "postinstall": "cd server && npm install" }
   }
 }
