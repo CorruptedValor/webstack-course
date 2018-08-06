@@ -4,3 +4,4 @@ server/desktop.ini
 .vscode/
 server/config/dev.js
 server/config/desktop.ini
+node_modules/
