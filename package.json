@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "scripts": {
     "postinstall": "cd server && npm install",
-    "start": "cd server && npm start",
-    "client": "cd client && npm start",
-    "server": "cd server && npm run dev",
+    "start": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "server": "npm run dev --prefix server",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false cd client && npm install && npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "dependencies": {
     "concurrently": "^3.6.1"
