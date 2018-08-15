@@ -5,3 +5,5 @@ server/desktop.ini
 server/config/dev.js
 server/config/desktop.ini
 node_modules/
+ngrok.exe
+sendgrid_webhook.js

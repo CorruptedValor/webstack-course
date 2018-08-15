@@ -13,7 +13,7 @@ module.exports = app => {
         });
         req.user.credits += 5;
         const user = await req.user.save();
-
+        // console.log(user);
         res.send(user);
     });
 };
